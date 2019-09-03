@@ -1,101 +1,301 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>perpetual · personal website</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-
-    <!-- Bootstrap core CSS -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="zxx">
 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <!-- Title-->
+  <title>Perpetual - Personal Portfolio / Resume / CV / vCard </title>
+  <!-- Description-->
+  <meta name="description" content="Perpetual Personal Portfolio / Resume / CV / vCard ">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <!-- Web fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <!-- CSS vendors-->
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/simplebar.min.css">
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+  <!-- Main CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS Color scheme-->
+  <link id="color-scheme" rel="stylesheet" href="css/colors/main-red.css">
+  <!-- Custom CSS (Add your custom CSS styles to this file)-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- removeIf(customizerDist)-->
+  <link rel="stylesheet" href="https://exill.tn/demo/codex_html/customizer/main.css">
+  <!-- endremoveIf(customizerDist)-->
+</head>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-   <!--this is the navigation bar-->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Creative Profile</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+<body>
+  <!-- Preloader-->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
     </div>
-  </nav>
-  <!--this is the end of navigation bar-->
-</header>
-
-<main role="main">
-<!--this is the carousel-->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="bd-placeholder-img" width="100%" height="100%"  preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><img src='assets/img/pappi.jpg'></img><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
-          
-        </div>
-      </div>
-     </div>
-
   </div>
-  <!--ned carousel-->
+  <div class="main-wrapper">
+    <!-- Sidebar-->
+    <header>
+      <nav class="navbar d-md-block d-lg-none fixed-top mobile-navbar"><button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#mobileNavbarSupportedContent" aria-controls="mobileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-btn">Menu</span></button>
+        <div class="collapse navbar-collapse order-1" id="mobileNavbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+        </div>
+      </nav>
+      <nav class="sidebar" data-simplebar>
+        <div class="sidebar-header"><a href="#home" data-scroll><img class="img-fluid sidebar-avatar" src="img/profile-avatar.jpg" alt="Profile avatar"></a><span class="sidebar-name">Perpetual</span>
+          <p class="sidebar-status">Available for work</p>
+        </div>
+        <div class="sidebar-menu">
+          <ul class="list-unstyled list-menu">
+            <li><a class="nav-link" href="#home-area" data-scroll>Home</a></li>
+            <li><a class="nav-link" href="#about-area" data-scroll>About</a></li>
+            <li><a class="nav-link" href="#services-area" data-scroll>Services</a></li>
+            <!--
+            <li><a class="nav-link" href="#portfolio-area" data-scroll>Portfolio</a></li>
+            <li><a class="nav-link" href="#testimonials-area" data-scroll>Clients</a></li>
+            <li><a class="nav-link" href="#blog-area" data-scroll>Blog</a></li>
+          -->
+            <li><a class="nav-link" href="#contact-area" data-scroll>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="sections-wrapper">
+      <!-- Sections-->
+      <!-- Home-->
+      <section class="home-area element-cover-bg particles-variant" id="home-area" style="background-image:url(img/home.jpg)">
+        <div id="particles-js"></div>
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-12 col-lg-8 home-content text-center">
+              <h1 class="home-name">Perpetual <span>Ndanu</span></h1>
+              <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible"> Fullstack Web Developer</b><b>System Admin</b><b>Graphic Designer</b></span></h4>
+            </div><a href="#about-area" data-scroll>
+              <div class="home-mouse">
+                <div class="mouse-shape">
+                  <div class="mouse-wheel"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- About-->
+      <section class="single-section about-area" id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading">
+                <h2 class="section-title">About me</h2>
+                <p class="section-description">Get to know me</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <!-- Picture part-->
+            <div class="col-12 col-lg-5 about-img"><img class="img-fluid img-thumbnail" src="img/about-img.jpg" alt="About Picture"></div>
+            <!-- Content part-->
+            <div class="col-12 col-lg-7 about-content">
+              <div class="content-block">
+                <h2 class="content-subtitle">Who am i?</h2>
+                <h6 class="content-title">I'm Perpetual Ndanu , System Admin, Graphic Designer and Fullstack Web Developer</h6>
+                <div class="content-description">
+                  <p>I am a freelancer based in the 127.0.0.1 and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                </div>
+                <address class="content-info">
+                  <div class="row">
+                    <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                      <p>Perpetual Ndanu</p>
+                    </div>
+                    <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                      <p><a href="mailto:ndanuperpetual864@gmail.com">ndanuperpetual864@gmal.com</a></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                      <p>19</p>
+                    </div>
+                    <div class="col-12 col-md-6 single-info"><span>From:</span>
+                      <p>Machakos, KE</p>
+                    </div>
+                  </div>
+                </address><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a><a class="btn content-work button-main" data-scroll="" href="#portfolio-area" role="button">My Work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+      <section class="single-section alt-bg services-area" id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-description">Services i offer to my clients</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
+                <h6 class="service-title">System Administrator</h6>
+                <p class="service-description">Having a knowledge on opensource operating systems i find easier to manage my clients systems. .</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-6">
+              <div class="single-service"><i class="icon service-icon ion-md-images"></i>
+                <h6 class="service-title">Graphic Design</h6>
+                <p class="service-description">I deliver high quality and crystal clear graphic designs and printouts.</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-6">
+              <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
+                <h6 class="service-title">Customer Support</h6>
+                <p class="service-description">I deliver any products to my clients, i offer tech support .</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-12">
+              <div class="single-service mb-lg-0"><i class="icon service-icon ion-logo-wordpress"></i>
+                <h6 class="service-title">Fullstack Web Development</h6>
+                <p class="service-description">I offer fullstack web development services .</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hire-->
+      <section class="single-section element-cover-bg hire-area" id="hire-area" style="background-image:url(img/hire.jpg)">
+        <div class="container">
+          <div class="row row-custom">
+            <div class="col-12 col-md-8 content-part">
+              <h1 class="hire-title">Let's work together!</h1>
+              <p class="hire-description">I am available for freelance projects. Hire me and get your project done.</p>
+            </div>
+            <div class="col-12 col-md-4 button-part"><a class="btn hire-btn button-main button-scheme" data-scroll="" href="#contact-area" role="button">Hire me</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact-->
+      <section class="single-section contact-area alt-bg" id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-description">Feel free to contact me anytime</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Contact form-->
+            <div class="col-12">
+              <form class="contact-form" id="contact-form">
+                <div class="row">
+                  <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
+                  <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                  <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+                  <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                  <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send message</button>
+                    <p class="contact-feedback"></p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer-->
+      <footer class="footer-area single-section">
+        <div class="container">
+          <div class="row contact-info">
+            <div class="col-12 col-sm-4">
+              <div class="single-info"><i class="info-icon icon ion-md-map"></i>
+                <p class="info-content"><a href="https://goo.gl/maps/2YAGiugG47VAS17g7" target="_blank">127.0.0.1.</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="single-info"><i class="info-icon icon ion-md-call"></i>
+                <p class="info-content"><a href="tel:+254706690398">+254706690398</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="single-info"><i class="info-icon icon ion-md-send"></i>
+                <p class="info-content"><a href="mailto:ndanuperpetual864@gmail.com">ndanuperpetual864@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="row mini-footer">
+            <div class="social-medias col-12 col-lg-5"><a class="twitter" href="#0"><i class="icon ion-logo-twitter"></i></a><a class="instagram" href="#0"><i class="icon ion-logo-instagram"></i></a><a class="linkedin" href="#0"><i class="icon ion-logo-linkedin"></i></a><a class="youtube" href="#0"><i class="icon ion-logo-youtube"></i></a><a class="github" href="#0"><i class="icon ion-logo-github"></i></a><a class="facebook" href="#0"><i class="icon ion-logo-facebook"></i></a></div>
+            <p class="copyright-notice col-12 col-lg-7">Copyright © 2019  Perpetual - Personal Portfolio / Resume / CV / vCard , all rights reserved. Developed by <a href="https://github.com/perpetualndanu" target="_blank">Perpetual</a>.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- removeIf(customizerDist)-->
+  <div class="demo-tool">
+    <div class="tool-wrapper">
+      <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+      <div class="tool-box">
+        <ul class="list-inline single-block color-switcher">
+          <li class="list-inline-item" style="background-color: #2c31ff;" data-path="css/colors/main-blueviolet.css"></li>
+          <li class="list-inline-item" style="background-color: #3460D1;" data-path="css/colors/main-nightskyblue.css"></li>
+          <li class="list-inline-item" style="background-color: #EE3158;" data-path="css/colors/main-redpink.css"></li>
+          <li class="list-inline-item" style="background-color: #007bff;" data-path="css/colors/main-blue.css"></li>
+          <li class="list-inline-item" style="background-color: #17a2b8;" data-path="css/colors/main-cyan.css"></li>
+          <li class="list-inline-item" style="background-color: #3365b0;" data-path="css/colors/main-darkblue.css"></li>
+          <li class="list-inline-item" style="background-color: #a435b7;" data-path="css/colors/main-darkmagenta.css"></li>
+          <li class="list-inline-item" style="background-color: #c93e70;" data-path="css/colors/main-darkpink.css"></li>
+          <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="css/colors/main-darkred.css"></li>
+          <li class="list-inline-item" style="background-color: #28a745;" data-path="css/colors/main-green.css"></li>
+          <li class="list-inline-item" style="background-color: #6610f2;" data-path="css/colors/main-indigo.css"></li>
+          <li class="list-inline-item" style="background-color: #fd7e14;" data-path="css/colors/main-orange.css"></li>
+          <li class="list-inline-item" style="background-color: #e83e8c;" data-path="css/colors/main-pink.css"></li>
+          <li class="list-inline-item" style="background-color: #6f42c1;" data-path="css/colors/main-purple.css"></li>
+          <li class="list-inline-item" style="background-color: #dc3545;" data-path="css/colors/main-red.css"></li>
+          <li class="list-inline-item" style="background-color: #20c997;" data-path="css/colors/main-teal.css"></li>
+          <li class="list-inline-item" style="background-color: #333;" data-path="css/colors/main-dark.css"></li>
+          <li class="list-inline-item" style="background-color: #78b230;" data-path="css/colors/main-yellowgreen.css"></li>
+          <li class="list-inline-item" style="background-color: #E16F7C;" data-path="css/colors/main-tangopink.css"></li>
+          <li class="list-inline-item" style="background-color: #6F73D2;" data-path="css/colors/main-moodyblue.css"></li>
+          <li class="list-inline-item" style="background-color: #664C43;" data-path="css/colors/main-brown.css"></li>
+          <li class="list-inline-item" style="background-color: #4770D9;" data-path="css/colors/main-royalblue.css"></li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+  <!-- endremoveIf(customizerDist)-->
+  <!-- Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/animatedModal.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Custom JS (Add your custom JS scripts to this file)-->
+  <script src="js/custom.js"></script>
+  <!-- removeIf(customizerDist)-->
+  <script src="https://exill.tn/demo/codex_html/customizer/main.js"></script>
+  <!-- endremoveIf(customizerDist)-->
+</body>
 
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
- 
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2019 Creative Profile Powered By Pappie</p>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
 </html>
